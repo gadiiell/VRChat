@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vanilla.Misc.AvatarFavorites
+namespace Example.Misc.AvatarFavorites
 {
     internal class Class1
     {
