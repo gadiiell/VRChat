@@ -1,6 +1,6 @@
 ﻿using VRC.Core;
 
-namespace Vanilla.AvatarFavorites
+namespace Example.AvatarFavorites
 {
     public class FavoriteAvatar
     {
