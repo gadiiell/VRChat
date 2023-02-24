@@ -2,10 +2,10 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using Vanilla.Wrappers;
+using Example.Wrappers;
 using VRC.Core;
 
-namespace Vanilla.AvatarFavorites
+namespace Example.AvatarFavorites
 {
     internal class FavoriteAvatarHandler
     {
