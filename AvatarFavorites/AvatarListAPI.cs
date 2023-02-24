@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using VRC.Core;
 
-namespace Vanilla.AvatarFavorites
+namespace Example.AvatarFavorites
 {
     internal class AvatarListAPI
     {
@@ -30,7 +30,7 @@ namespace Vanilla.AvatarFavorites
                         Transform transform = GameObject.Find("/UserInterface/MenuContent/Screens/Avatar/Vertical Scroll View/Viewport").transform;
                         GameObject gameObject = transform.Find("FavoriteListTemplate").gameObject;
                         GameObject gameObject2 = UnityEngine.Object.Instantiate(gameObject, transform.Find("Content"));
-                        gameObject2.name = "VanillaFavorites";
+                        gameObject2.name = "ExampleFavorites";
                         gameObject2.transform.Find("Expired").gameObject.SetActive(value: false);
                         Transform transform2 = gameObject2.transform.Find("Button");
                         transform2.GetComponentInChildren<Text>().text = "New List";
